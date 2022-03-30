@@ -1,7 +1,8 @@
 import os
+import sys
 
 znalezienie=False
-slowo = 'unittest'
+slowo = sys.argv[1]
 for filename in os.listdir('Pliki'):
     if filename.endswith('.py'):
         with open(os.path.join('Pliki', filename)) as f:
