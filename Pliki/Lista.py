@@ -14,11 +14,11 @@ Lista.append('Przyklad6') #dodaje Przyklad6 na koncu listy
 print(Lista)
 Lista.sort() #sortuje liste alfabetycznie
 print(Lista)
-print(Lista.pop()) #zwraca co znajduje się na ostatnim elemencie listy i usuwa go
+print(Lista.pop()) #zwraca co znajduje sie na ostatnim elemencie listy i usuwa go
 Lista2 = list(range(5)) #tworzenie listy z wartosciami od 0 do 4
 Lista.extend(Lista2) #dodaje Liste2 na koniec Listy
 print(Lista)
-Lista.insert(4, 2) #wstawia cyfrę 2 jako 5(bo liczymy od 0) element w liscie
+Lista.insert(4, 2) #wstawia cyfre 2 jako 5(bo liczymy od 0) element w liscie
 print(Lista)
 Lista.remove(2) #usuwa pierwszy znaleziony element z listy rowny 2
 print(Lista)
